@@ -6,8 +6,7 @@
 # のllonsen-object_ruby.pdfが当日参加者に配布した資料
 # をすこし訂正したもので、これはその中のtry!の問題に対する
 # 秋間の回答です。
-# おかしな点などありましたら、http://d.hatena.ne.jp/akm 
-# あるいは akm2000(at)gmail.com にご連絡ください。
+# おかしな点などありましたら、http://d.hatena.ne.jp/akm とかにご連絡ください。
 
 #
 # p.21 try!
