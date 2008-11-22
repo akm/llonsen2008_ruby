@@ -166,15 +166,17 @@ def select_values(hash, search)
   end
   result
 end
-
 select_values(language_developers, "p")
 select_values(language_developers, "r")
 
-
+# http://d.hatena.ne.jp/akm/20081117#c1227013548
+# で頂いた田代さんの回答。すばらし〜
 def select_values(hash, search)
-  hash.keys.select{|key| key.include?(search)}
-  #簡単に書こうと思ったけど、むずかしい
+  hash.map{|key,value| value if key.include?(string)}.compact
 end
+select_values(language_developers, "p")
+select_values(language_developers, "r")
+
 
 #
 # p.33 try! #2
